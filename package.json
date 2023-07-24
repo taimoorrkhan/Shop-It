@@ -6,7 +6,8 @@
 	"scripts": {
 		"start": "node server.js",
     "dev": "SET NODE_ENV=development& nodemon server.js",
-    "prod": "SET NODE_ENV=production& nodemon server.js"
+    "prod": "SET NODE_ENV=production& nodemon server.js",
+		"seeder": "node utils/seeder.js"
 	},
 	"author": "Taimoor Khan",
 	"license": "ISC",
