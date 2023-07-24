@@ -16,7 +16,7 @@ const productSchema = new mongoose.Schema({
   description: {
     type: String,
     required: [true, 'Please enter product description'],
-    maxLength: [300, 'Product description cannot exceed 300 characters']
+    maxLength: [2000, 'Product description cannot exceed 2000 characters']
 
   },
   ratings: {
@@ -42,7 +42,7 @@ const productSchema = new mongoose.Schema({
       values: [
         'Electronics',
         'Cameras',
-        'Laptop',
+        'Laptops',
         'Accessories',
         'Headphones',
         'Food',
